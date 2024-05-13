@@ -1,0 +1,22 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  color-scheme: light dark;
+  color: black;
+  background-color: white;
+}
+
+body {
+  margin: 0;
+}
+
+.linkComp { 
+  color: #5BCFF6 !important;
+  background: transparent;
+  border: 0;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    color: darken(blue, 20%);
+  }
+}
